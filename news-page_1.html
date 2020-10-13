@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Brilliant</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/media.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<nav id="mb-nav">
+    <div id="dismiss">
+        <i class="material-icons">close</i>
+    </div>
+
+    <div class="mb-nav-header">
+        <div class="logo add"><a href="index.html"><img src="img/logo.png" alt="logo"></a></div>
+    </div>
+
+    <ul class="mb-list component">
+        <li class="mb_list_tov uppercase"><a href="#"><i class="material-icons">sort</i><span>Каталог товаров</span></a></li>
+        <ul class="mb-submenu">
+          <li><a href="#">Ювелирная бижутерия</a></li>
+          <li><a href="#">Свадебная бижутерия</a></li>
+          <li><a href="#">Мужская бижутерия</a></li>
+          <li><a href="#">Натуральные камни</a></li>
+          <li><a href="#">Аксессуары</a></li>
+          <li><a href="#">Детские украшения</a></li>
+          <li><a href="#">Хиты продаж</a></li>
+          <li><a href="#">Новинки</a></li>
+        </ul>
+        <li class="uppercase"><a href="#">Акции</a></li>
+        <li class="uppercase"><a href="#">Доставка и оплата</a></li>
+        <li class="uppercase"><a href="news.html">Новости</a></li>
+        <li class="uppercase"><a href="contact.html">Контакты</a></li>
+    </ul>
+
+      <div class="search add search-mb">
+           <input type="search" id="search" placeholder="Поиск">
+        <button type="button" class="icon-search"><i class="material-icons">search</i></button>
+      </div>
+</nav>
+
+<div id="basket-list">
+    <div id="dismiss">
+        <i class="material-icons">close</i>
+    </div>
+          <div class="side-nav__header">
+                <span class="empty">Корзина</span>
+          </div>
+          <div class="side-nav__content">
+            <div class="basket-frame">
+                <ul id="cart-sidebar" class="mini-products-list">
+                    <li class="item last odd">
+                      <div class="frame-row">
+                      <span title="Удалить позицию" class="btn-remove" onclick=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill='#d1d1d1'><path d="M0 84V56c0-13.3 10.7-24 24-24h112l9.4-18.7c4-8.2 12.3-13.3 21.4-13.3h114.3c9.1 0 17.4 5.1 21.5 13.3L312 32h112c13.3 0 24 10.7 24 24v28c0 6.6-5.4 12-12 12H12C5.4 96 0 90.6 0 84zm416 56v324c0 26.5-21.5 48-48 48H80c-26.5 0-48-21.5-48-48V140c0-6.6 5.4-12 12-12h360c6.6 0 12 5.4 12 12zm-272 68c0-8.8-7.2-16-16-16s-16 7.2-16 16v224c0 8.8 7.2 16 16 16s16-7.2 16-16V208zm96 0c0-8.8-7.2-16-16-16s-16 7.2-16 16v224c0 8.8 7.2 16 16 16s16-7.2 16-16V208zm96 0c0-8.8-7.2-16-16-16s-16 7.2-16 16v224c0 8.8 7.2 16 16 16s16-7.2 16-16V208z"/></svg></span>
+                            <a href="https://www.zolotoyvek.ua/ru/zolotoe-kolco-s-fianitami-artikul-12159.html" title="Золотое кольцо с фианитами. Артикул 12159" class="product-image"><img src="https://www.zolotoyvek.ua/media/catalog/product/cache/1/thumbnail/130x/9df78eab33525d08d6e5fb8d27136e95/_/1/_12159_6.jpg" alt="Золотое кольцо с фианитами. Артикул 12159"></a>
+                          <div class="product-details">
+                            <span class="product-name"><a href="https://www.zolotoyvek.ua/ru/zolotoe-kolco-s-fianitami-artikul-12159.html">Золотое кольцо с фианитами. Артикул 12159</a></span>
+                            <span class="price">2&nbsp;500&nbsp;<span>грн</span></span>
+                            <ul class="item-options">
+  						                <li><span>Размер</span><span>&nbsp;16</span></li>
+                              <li><span>Вес</span><span>&nbsp;4.39</span></li>
+                            </ul>
+                      </div>
+                      </li>
+                      <li class="item last odd">
+                        <div class="frame-row">
+                        <span title="Удалить позицию" class="btn-remove" onclick=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill='#d1d1d1'><path d="M0 84V56c0-13.3 10.7-24 24-24h112l9.4-18.7c4-8.2 12.3-13.3 21.4-13.3h114.3c9.1 0 17.4 5.1 21.5 13.3L312 32h112c13.3 0 24 10.7 24 24v28c0 6.6-5.4 12-12 12H12C5.4 96 0 90.6 0 84zm416 56v324c0 26.5-21.5 48-48 48H80c-26.5 0-48-21.5-48-48V140c0-6.6 5.4-12 12-12h360c6.6 0 12 5.4 12 12zm-272 68c0-8.8-7.2-16-16-16s-16 7.2-16 16v224c0 8.8 7.2 16 16 16s16-7.2 16-16V208zm96 0c0-8.8-7.2-16-16-16s-16 7.2-16 16v224c0 8.8 7.2 16 16 16s16-7.2 16-16V208zm96 0c0-8.8-7.2-16-16-16s-16 7.2-16 16v224c0 8.8 7.2 16 16 16s16-7.2 16-16V208z"/></svg></span>
+                              <a href="https://www.zolotoyvek.ua/ru/zolotoe-kolco-s-fianitami-artikul-12159.html" title="Золотое кольцо с фианитами. Артикул 12159" class="product-image"><img src="https://www.zolotoyvek.ua/media/catalog/product/cache/1/thumbnail/130x/9df78eab33525d08d6e5fb8d27136e95/_/1/_12159_6.jpg" alt="Золотое кольцо с фианитами. Артикул 12159"></a>
+                            <div class="product-details">
+                              <span class="product-name"><a href="https://www.zolotoyvek.ua/ru/zolotoe-kolco-s-fianitami-artikul-12159.html">Золотое кольцо с фианитами. Артикул 12159</a></span>
+                              <span class="price">2&nbsp;500&nbsp;<span>грн</span></span>
+                              <ul class="item-options">
+    						                <li><span>Размер</span><span>&nbsp;16</span></li>
+                                <li><span>Вес</span><span>&nbsp;4.39</span></li>
+                              </ul>
+                        </div>
+                        </li>
+                  </ul>
+            </div>
+          </div>
+      <div class="side-nav__footer"></div>
+</div>
+<!--.................Header............-->
+<section class="header">
+    <div class="container">
+       <div class="row">
+       <div class="col-sm-2 col-xs-2 logo-wrap">
+         <div class="logo add"><a href="index.html"><img src="img/logo.png" alt="logo"></a></div>
+       </div>
+
+        <div class="nav-mb-left">
+          <div class="button" id="btn"><i class="material-icons">dehaze</i></div>
+        </div>
+
+       <div class="col-lg-offset-0 col-lg-5 col-md-4 col-md-offset-0 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 search-wrapper search-lg">
+          <div class="search add">
+            <input type="search" id="search" placeholder="Поиск">
+            <button type="button" class="icon-search"><i class="material-icons">search</i></button>
+          </div>
+        </div>
+        <div class="col-lg-2 col-lg-offset-1 col-md-offset-2 col-md-2 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-0 phone-lg">
+            <button type="button" class="call red_btn">Обратный звонок</button>
+        </div>
+        <div class="col-lg-0 col-lg-offset-0 col-md-offset-0 col-md-0 col-sm-0 col-sm-offset-0 col-xs-1 col-xs-offset-1 phone-mb">
+            <div class="call-mb"><i class="fa fa-phone" aria-hidden="true"></i></div>
+        </div>
+            <button class="basket">
+             <a href="#">
+               <span class="ico"><i class="material-icons">shopping_basket</i></span>
+            </a>
+          </button>
+         <div class="col-sm-2 wrap-phone-lg">
+             <div class="phone">
+               <p>Пн -Пт с 9:00 до 18:00</p>
+               <span>0 800 123 456</span>
+            </div>
+         </div>
+       </div>
+    </div>
+</section>
+<!--.................Menu............-->
+<section class="menu">
+    <div class="container">
+<div class="row">
+    <div class="col-lg-8 col-md-9 col-sm-10 col-xs-10 wrap_naw">
+        <div class="nav">
+            <ul>
+                <li class="list_tov"><i class="material-icons">sort</i><a href="#"><span>Каталог товаров</span></a></li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Доставка и оплата</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-lg-2 col-lg-offset-2 col-md-3 col-md-offset-0 col-sm-offset-1 col-sm-1 col-xs-offset-1 col-xs-1 wrapper-basket">
+            <button class="basket">
+             <a href="#">
+               <span class="ico"><i class="material-icons">shopping_basket</i></span><p><span class="price">2&nbsp;500&nbsp;<span>грн</span></span></p>
+            </a>
+          </button>
+    </div>
+</div>
+    </div>
+</section>
+
+<section class="sub-menu">
+<div class="container sub-naw-wrapper">
+<div class="row ">
+    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+        <div class="sub-nav">
+            <ul>
+                <li class="uppercase main-li"><a href="#">Ювелирная бижутерия</a></li>
+                <li><a href="#">Кольца</a></li>
+                <li><a href="#">Браслеты</a></li>
+                <li><a href="#">Серьги</a></li>
+                <li><a href="#">Подвески</a></li>
+				<li><a href="#">Комплекты</a></li>
+                <li><a href="#">Кулоны</a></li>
+                <li><a href="#">Броши</a></li>
+                <li><a href="#">Бусы</a></li>
+            </ul>
+        </div>
+    </div>
+	<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+        <div class="sub-nav">
+            <ul>
+                <li class="uppercase main-li"><a href="#">Свадебная бижутерия</a></li>
+                <li><a href="#">Свадебные кольца</a></li>
+                <li><a href="#">Свадебные браслеты</a></li>
+                <li><a href="#">Свадебные серьги</a></li>
+                <li><a href="#">Свадебные подвески</a></li>
+				<li><a href="#">Свадебные комплекты</a></li>
+                <li><a href="#">Свадебные аксессуары для волос</a></li>
+            </ul>
+        </div>
+    </div>
+	<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+        <div class="sub-nav">
+            <ul>
+                <li class="uppercase main-li"><a href="#">Натуральные камни</a></li>
+                <li><a href="#">Кольца</a></li>
+                <li><a href="#">Браслеты</a></li>
+                <li><a href="#">Серьги</a></li>
+                <li><a href="#">Подвески</a></li>
+				<li><a href="#">Комплекты</a></li>
+                <li><a href="#">Кулоны</a></li>
+            </ul>
+        </div>
+    </div>
+	<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+        <div class="sub-nav">
+            <ul>
+                <li class="uppercase main-li"><a href="#">Аксессуары</a></li>
+                <li><a href="#">Сумки</a></li>
+                <li><a href="#">Брелоки</a></li>
+                <li><a href="#">Чехлы для телефонов</a></li>
+                <li><a href="#">Кошельки</a></li>
+				<li><a href="#">Шапки</a></li>
+                <li><a href="#">Шарфы</a></li>
+                <li><a href="#">Ремни</a></li>
+            </ul>
+        </div>
+    </div>
+	<div class="col-lg-2 col-md-2 brends-list">
+        <div class="sub-nav">
+            <ul>
+                <li class="uppercase main-li"><a href="#">Бренды</a></li>
+                <li><a href="#">Кольца</a></li>
+                <li><a href="#">Браслеты</a></li>
+                <li><a href="#">Серьги</a></li>
+                <li><a href="#">Подвески</a></li>
+				<li><a href="#">Комплекты</a></li>
+                <li><a href="#">Кулоны</a></li>
+                <li><a href="#">Броши</a></li>
+                <li><a href="#">Бусы</a></li>
+            </ul>
+        </div>
+    </div>
+	<div class="col-lg-2 col-md-2 col-sm-12 col-xs-0 sub-nav-lg">
+        <div class="sub-nav main-li-sub">
+            <ul>
+                <li class="uppercase main-li"><a href="#">мужская бижутерия</a></li>
+                <li class="uppercase main-li"><a href="#">новинки</a></li>
+                <li class="uppercase main-li"><a href="#">детские украшения</a></li>
+                <li class="uppercase main-li"><a href="#">аксессуары для волос</a></li>
+                <li class="uppercase main-li"><a href="#">акции</a></li>
+				<li class="uppercase main-li"><a href="#">хиты продаж</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="row">
+	<div class="col-xs-12 sub-nav-mb">
+        <div class="sub-nav">
+            <ul>
+			<div class="container">
+				<div class="row">
+                <li class="uppercase main-li col-sm-4 col-xs-4"><a href="#">мужская бижутерия</a></li>
+                <li class="uppercase main-li col-sm-4 col-xs-4"><a href="#">детские украшения</a></li>
+				<li class="uppercase main-li col-sm-4 col-xs-3"><a href="#">новинки</a></li>
+                <li class="uppercase main-li col-sm-4 col-xs-4"><a href="#">аксессуары для волос</a></li>
+				<li class="uppercase main-li col-sm-4 col-xs-4"><a href="#">хиты продаж</a></li>
+                <li class="uppercase main-li col-sm-4 col-xs-3"><a href="#">акции</a></li>
+				</div>
+			</div>
+            </ul>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 breadcrumbs-block">
+        <a href="index.html">Главная</a>
+        <span>→</span>
+        <a href="news.html">Новости</a>
+        <span>→</span>
+        <span>Дешевая или дорогая бижутерия?</span>
+    </div>
+  </div>
+</div>
+<section class="news-one-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Дешевая или дорогая бижутерия?</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="st-wrapper">
+        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+          <span class="image-news-wr">
+            <div class="image-news-wrapper">
+              <img src="img/one_news_1.jpg" alt="бусы" class="mews-one-page-image">
+            </div>
+          </span>
+        </div>
+         <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 text-news-wrapper">
+           <p class="text-news">Когда Вы выбираете аксессуары, не забывайте о том, что бижутерия – это в первую очередь альтернатива ювелирным украшениям. Ключевое слово здесь – альтернатива. По определению бижутерия должна быть доступной, но при этом она может быть вполне достойного качества. В этой статье мы расскажем о том, как выбрать бижутерию, ориентируясь на ее стоимость.</p>
+           <h4>Выбор бижутерии по цене</h4>
+           <p class="text-news"> Итак, может ли бижутерия быть дорогой, и почему недорогие украшения – не значит некачественные? Существуют элитные бренды-производители бижутерии. Материалы, из которых сделаны такие украшения, отличаются от обычных: драгоценные и полудрагоценные камни, муранское стекло или редкие породы дерева. Такие аксессуары практически приравнивают к ювелирным украшениям, но это совсем не означает, что недорогая бижутерия не может быть такой же качественной и безопасной. Элитные украшения имеют свои преимущества, но одна из главных причин, по которой мы отдаем предпочтение бижутерии – это все же цена. Поэтому основной недостаток дорогой бижутерии состоит в том, что большое разнообразие дорогих аксессуаров может позволить себе далеко не каждая женщина.</p>
+           <br><br>
+           <p class="text-news">Существуют элитные бренды-производители бижутерии. Материалы, из которых сделаны такие украшения, отличаются от обычных: драгоценные и полудрагоценные камни, муранское стекло или редкие породы дерева. Такие аксессуары практически приравнивают к ювелирным украшениям, но это совсем не означает, что недорогая бижутерия не может быть такой же качественной и безопасной. Элитные украшения имеют свои преимущества, но одна из главных причин, по которой мы отдаем предпочтение бижутерии – это все же цена. Поэтому основной недостаток дорогой бижутерии состоит в том, что большое разнообразие дорогих аксессуаров может позволить себе далеко не каждая женщина.
+           </p>
+         </div>
+       </div>
+    </div>
+     <div class="row">
+       <div class="col-xs-12">
+         <h4>Бижутерия – цена, качество</h4>
+         <p class="text-news"><strong>Сколько стоит бижутерия?&nbsp;</strong>Стоимость бижутерии варьируется в очень широких пределах, если брать усредненные показатели, то цена на украшения колеблется от 500 рублей до 2 тысяч. При этом украшения в этом диапазоне сделаны из безопасного гипоаллергенного сплава металлов, и покрыты тонким защитным слоем, предотвращающим потемнение украшений.</p>
+         <br><br>
+          <p class="text-news"><strong>Сколько стоит бижутерия с камнем?&nbsp;</strong>Для изготовления украшений используют различные камни: фианит, оникс, агат, бирюза, коралл, аметист, кварц и многие другие. Цена на серьги с фианитом, например, может доходить до 1,5 тысяч рублей, а начинаться с 300 рублей. Украшения с натуральными камнями обойдется Вам примерно в эту же сумму, в среднем такая бижутерия стоит до 2 тысяч рублей.</p>
+          <br><br>
+          <p class="text-news"><strong>Сколько стоит бижутерия с кристаллами?&nbsp;</strong>Цена на украшения с кристаллами Сваровски может достигать 6-7 тысяч рублей. Разные интернет-магазины устанавливают свои цены на такую продукцию, но в среднем стоимость должна составлять от тысячи рублей до 3 тысяч.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="social-icons">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-5 col-xs-5 data-column">
+        <p>13 Марта 2017   –   источник <a href="#">Swarovski</a></p>
+      </div>
+      <div class="col-lg-2 col-lg-offset-7 col-md-2 col-md-offset-6 col-sm-3 col-sm-offset-4 col-xs-6 col-xs-offset-1">
+      <div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,gplus,twitter"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="read-more">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Читайте также</h2>
+      </div>
+      <div class="col-md-6 col-xs-12 wrap-read-more">
+        <a class="news-wrap-a" href="news-page_1.html">
+          <div class="news-wrap-img"><img src="img/news_3.jpg" alt="news"></div></a>
+        <div class="read-more-desc">
+          <h3 class="read-more-title">
+            <a class="title-read-more" href="news-page_1.html">Кольцa в стиле Картье Тринити</a>
+          </h3>
+          <span>11 Мар 2017</span>
+          <p>Украшения из металла пользуются огромной популярностью среди всей бижутерии. Последний модный тренд – это массивные металлические украшения. С чем носить украшения из металла.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-xs-12 wrap-read-more">
+        <a class="news-wrap-a" href="news-page_1.html">
+          <div class="news-wrap-img"><img src="img/news_4.jpg" alt="news"></div></a>
+          <div class="read-more-desc">
+            <h3 class="read-more-title">
+              <a class="title-read-more" href="news-page_1.html">Замки для серег</a>
+            </h3>
+            <span>11 Мар 2017</span>
+            <p>Кольцо в стиле Картье Тринити – украшение, которое должна иметь в своей шкатулке каждая девушка. История появления этого простого, но изысканного аксессуара красива и необычна. Мы расскажем, почему кольцо в легендарном стиле Картье стало таким популярным, и с чем его следует сочетать.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="read-more-button">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <a href="news.html"><div class="button-news uppercase">назад в новости&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></div></a>
+      </div>
+    </div>
+  </div>
+<section>
+<!--.................Footer............-->
+<section class="footer">
+    <div class="bg-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-sm-2 col-xs-2 footer-catalog-wrapper footer-lg-catalog-1">
+               <h3><a href="#">Каталог</a></h3>
+                <ul>
+                  <li class="footer-catalog-list"><div class="footer-catalog-item">
+                      <a href="#">Комплекты</a>
+                  </div></li>
+                  <li class="footer-catalog-list"><div class="footer-catalog-item">
+                      <a href="#">Браслеты</a>
+                  </div></li>
+                  <li class="footer-catalog-list"><div class="footer-catalog-item">
+                      <a href="#">Брелки</a>
+                  </div></li>
+                  <li class="footer-catalog-list"><div class="footer-catalog-item">
+                      <a href="#">Кольца</a>
+                  </div></li>
+                  <li class="footer-catalog-list"><div class="footer-catalog-item">
+                      <a href="#">Аксессуары для волос</a>
+                  </div></li>
+                  <li class="footer-catalog-list"><div class="footer-catalog-item">
+                      <a href="#">Броши</a>
+                  </div></li>
+                  <li class="footer-catalog-list"><div class="footer-catalog-item">
+                      <a href="#">Бусы</a>
+                  </div></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-sm-2 col-xs-2 footer-catalog-wrapper footer-lg-catalog-2">
+                <ul class="wrapper-footer-catalog-item">
+                    <li class="footer-catalog-list"><div class="footer-catalog-item">
+                        <a href="#">Кулоны</a>
+                    </div></li>
+                    <li class="footer-catalog-list"><div class="footer-catalog-item">
+                        <a href="#">Подвески</a>
+                    </div></li>
+                    <li class="footer-catalog-list"><div class="footer-catalog-item">
+                        <a href="#">Серьги</a>
+                    </div></li>
+                    <li class="footer-catalog-list"><div class="footer-catalog-item">
+                        <a href="#">Цепочки</a>
+                    </div></li>
+                    <li class="footer-catalog-list"><div class="footer-catalog-item">
+                        <a href="#">Swarovski</a>
+                    </div></li>
+                    <li class="footer-catalog-list"><div class="footer-catalog-item">
+                        <a href="#">Авторская бижутерия</a>
+                    </div></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-sm-2 col-xs-2 footer-catalog-wrapper footer-lg-catalog-3">
+               <h3><a href="contact.html">Контакты</a></h3>
+                <ul>
+                  <li class="footer-catalog-list"><div class="footer-catalog-item">
+                      <a href="#">Акции и скидки</a>
+                  </div></li>
+                  <li class="footer-catalog-list"><div class="footer-catalog-item">
+                      <a href="#">Доставка и оплата</a>
+                  </div></li>
+                  <li class="footer-catalog-list"><div class="footer-catalog-item">
+                      <a href="news.html">Новости</a>
+                  </div></li>
+                  <li class="footer-catalog-list"><div class="footer-catalog-item">
+                      <a href="#">Полезные советы</a>
+                  </div></li>
+                  <li class="footer-catalog-list"><div class="footer-catalog-item">
+                      <a href="#">Отзывы</a>
+                  </div></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-3 col-xs-4 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-xs-offset-1 footer-catalog-wrapper footer-lg-catalog-4">
+                <p id="callback">Обратный звонок</p>
+                 <div class="phone">
+                   <span>0 800 123 456</span>
+                   <p>Пн -Пт с 9:00 до 18:00</p>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-6 col-lg-offset-0 col-md-offset-0 col-sm-offset-1 col-xs-offset-1 footer-catalog-wrapper footer-lg-catalog-5">
+                <p>Мы в социальных сетях</p>
+                 <div class="social-icons">
+                      <a href="#">
+                          <div class="social-icon"><i class="fa fa-facebook-f"></i></div></a>
+                      <a href="#">
+                          <div class="social-icon"><i class="fa fa-vk"></i></div></a>
+                      <a href="#">
+                          <div class="social-icon"><i class="fa fa-instagram"></i></div></a>
+                </div>
+                <div class="footer-follow-brilliant-lg">
+                  <div class="footer-follow-brilliant">
+                      <p>Присоединяясь Brilliant, чтобы получать клубные  скидки и специальные привелегии</p>
+                  </div>
+                  <div class="footer-follow-email">
+                    <div class="email">
+                      <form action="">
+                        <label class="mail-icon" for="e-mail"><i class="material-icons">mail</i></label>
+                        <input class="mail-input" type="email" name="email" id="e-mail" placeholder="Ваш e-mail" required>
+                        <input type="submit" class="email-send">Подписаться</input>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-8 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-xs-offset-1 footer-follow-brilliant-mb footer-catalog-wrapper footer-lg-catalog-6">
+              <div class="footer-follow-brilliant">
+                  <p>Присоединяясь Brilliant, чтобы получать клубные  скидки и специальные привелегии</p>
+              </div>
+              <div class="footer-follow-email">
+                <div class="email">
+                  <form action="">
+                    <label class="mail-icon" for="e-mail"><i class="material-icons">mail</i></label>
+                    <input class="mail-input" type="email" name="email" id="e-mail" placeholder="Ваш e-mail" required>
+                    <input type="submit" class="email-send">Подписаться</input>
+                  </form>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 copyright"><p> Brilliant  – интернет-магазин элитной бижутерии</p></div>
+            <div class="col-xs-5 col-xs-offset-1 developer"><a href="#">Разработка сайта</a></div>
+        </div>
+    </div>
+    </div>
+</section>
+<!-- Подключение скрипта для слайдера,действует только,при подключении внизу body -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script src="js/jquery.sliderPro.min.js"></script>
+<script src="js/jquery.fs.selecter.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="js/jquery.mask.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<div class="overlay"></div>
+<div class="pop-up-phone pop-up">
+    <div class="close-pop-up-phone close-pop-up"><i class="material-icons">close</i></div>
+    <h2>Обратный звонок</h2>
+    <div class="form-phone row">
+      <form class="form-clb" method="post"  action="">
+        <div class="col-xs-12">
+            <input type="text" required placeholder="Ваше имя *" name="txtname" class="phone-form-input">
+        </div>
+        <div class="col-xs-12">
+            <input type="tel" required placeholder="Ваш телефон *" name="txtphone" class="phone-form-input txtphone" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$">
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <input type="text" required placeholder="Желаемое время звонка" name="txttime" class="phone-form-input txttime">
+        </div>
+        <div class="col-xs-12">
+            <input type="submit" name="submit-phone" value="Перезвоните мне" class="send-form-phone">
+        </div>
+        <div class="col-xs-12 privacy-check">
+            <label><input type="checkbox" required name="checkbox" checked> Даю согласие на <a data-fancybox data-type="iframe" data-src="privacy.html">обработку персональных данных</a></label>
+        </div>
+      </form>
+    </div>
+</div>
+<div class="pop-up-sizes pop-up">
+    <div class="close-pop-up-sizes close-pop-up"><i class="material-icons">close</i></div>
+    <h2>Таблица размеров</h2>
+    <div class="sizes-wrapper">
+      <img class="lg-sizes" src="img/ring-size.jpg" alt="sizes">
+      <img class="mb-sizes" src="img/ring-size2.jpg" alt="sizes">
+    </div>
+</div>
+</body>
+</html>
